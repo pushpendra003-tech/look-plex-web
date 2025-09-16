@@ -1,0 +1,115 @@
+.app {
+  position: relative;
+  width: 1440px;
+  height: 900px;
+  background: url('../assets/First.png') center/cover no-repeat;
+  background-color: #0000008c;
+}
+
+.navbar-left {
+  position: absolute;
+  top: 27px;
+  left: 115px;
+}
+
+.logo-look {
+  font-family: 'Oregano';
+  font-size: 43px;
+  color: #ffffff;
+}
+
+.logo-plex {
+  font-family: 'Oregano';
+  font-size: 24px;
+  margin-left: 3px;
+  color: #000;
+  -webkit-text-stroke: 1px #ffffff;
+  -moz-text-stroke: 1px #ffffff;
+  text-stroke: 1px #ffffff;
+}
+
+.line {
+  width: 144px;
+  border: 1px solid #ffffff40;
+}
+
+.sub-text {
+  font-family: 'Oregano';
+  font-size: 17px;
+  color: #ffffff;
+  margin-top: 4px;
+}
+
+.navbar-center {
+  position: absolute;
+  top: 36px;
+  left: 576px;
+  display: flex;
+  gap: 29px;
+}
+
+.navbar-center a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 17px;
+}
+
+.navbar-right {
+  position: absolute;
+  top: 31px;
+  right: 115px;
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.right-image img {
+  width: 22px;
+}
+
+.login-signup {
+  font-size: 19px;
+  color: #fff;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.hero-content {
+  position: absolute;
+  top: 225px;
+  left: 216px;
+  width: 1008px;
+  text-align: center;
+  color: #fff;
+}
+
+.hero-title {
+  font-family: Italiana;
+  font-size: clamp(2rem, 72px, 4rem);
+}
+
+.hero-buttons {
+  margin-top: 27px;
+  display: flex;
+  justify-content: center;
+  gap: 29px;
+  flex-wrap: wrap;
+}
+
+.hero-btn {
+  padding: 11px 29px;
+  font-size: clamp(16px, 22px, 24px);
+}
+
+.hero-btn.primary {
+  background-color: #ff91b0;
+  color: #fff;
+  border: none;
+}
+
+.hero-btn.secondary {
+  background-color: transparent;
+  border: 1px solid #fff;
+  color: #fff;
+}

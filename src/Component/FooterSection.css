@@ -1,0 +1,127 @@
+.footer {
+  width: 100%;
+  margin-top: 66px;
+  background: #FF91B0;
+  padding: 38px 0;
+  color: #fff;
+  font-family: 'Outfit', sans-serif;
+}
+
+.footer-container {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 36px;
+}
+
+.footer-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+/* Logo */
+.footer-logo-row {
+  display: flex;
+  align-items: flex-end;
+  gap: 10px;
+}
+
+.footer-logo-title {
+  font-family: 'Oregano', cursive;
+  font-size: 69px;
+  line-height: 90px;
+  margin: 0;
+}
+
+.footer-plex {
+  font-family: 'Oregano', cursive;
+  font-weight: 400;
+  font-size: 40.51px;
+  line-height: 100%;
+  margin: 0 0 27px -13px;
+}
+
+.footer-extra-line {
+  width: 231.48px;
+  height: 0px;
+  border: 1.74px solid #FFFFFF40;
+  opacity: 1;
+}
+
+.footer-logo-subtitle {
+  font-family: 'Oregano', cursive;
+  font-size: 32px;
+  line-height: 42px;
+  margin: 8px 0 0;
+}
+
+.footer-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+      margin-top: 31px;
+    margin-right: 98px;
+}
+
+.footer-link {
+  font-size: 18px;
+  font-weight: 500;
+  color: #f7f7f7;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.footer-link:hover {
+  color: #e38995;
+}
+
+.footer-divider {
+  width: 1200px;
+  height: 1px;
+  background: #f7f7f7;
+}
+
+.footer-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.footer-copy {
+  font-size: 16px;
+  font-weight: 400;
+  color: #f7f7f7;
+  margin: 5px 0;
+}
+
+.footer-social {
+  display: flex;
+  gap: 14px;
+}
+
+.footer-social-btn {
+  width: 40px;
+  height: 40px;
+  border: 0.83px solid #FFFFFF;
+  border-radius: 25px;
+  background: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background 0.3s;
+  cursor: pointer;
+}
+
+.footer-social-btn:hover {
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.footer-social-icon {
+  width: 20px;
+  height: 20px;
+}
